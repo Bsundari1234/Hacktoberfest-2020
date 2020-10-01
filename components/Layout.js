@@ -1,7 +1,7 @@
 import { Container, AppBar, Toolbar, Typography } from "@material-ui/core";
 import styles from '../styles/layout.module.scss'
 
-export default function Layout({ children, noAppBar }) {
+export default function Layout({ children, noAppBar }){
     return (
         <Container className={styles.layout}>
             {
